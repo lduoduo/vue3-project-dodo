@@ -31,6 +31,12 @@ export default {
     '/@/': path.resolve(__dirname, './src')
     // '/@components/': path.resolve(__dirname, './src/components')
   },
+  //这里注意，键名是scss不是sass！一字之差能让你折腾好久
+  scss: {
+    //这里写你想导入全局scss变量的路径
+    //这里注意只能写相对路径，alias貌似在css中不会生效
+    additionalData: "@import './src/style/a.scss';"
+  },
   proxy: {
     '/api': 'http://127.0.0.1:10002'
     // 如果是 /api 打头，则访问地址如下

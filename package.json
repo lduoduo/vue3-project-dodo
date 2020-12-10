@@ -44,7 +44,7 @@
     "vite": "^1.0.0-rc.13",
     "vue-jest": "^5.0.0-0"
   },
-  "gitHooks": {
+  "gitHooks1": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
