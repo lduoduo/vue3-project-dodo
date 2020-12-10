@@ -28,3 +28,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### vite踩坑
+1. [vite] Failed to resolve module import "@/components/HelloWorld.vue". (imported by /src/views/Home.vue)

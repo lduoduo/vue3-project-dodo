@@ -1,0 +1,1128 @@
+{
+  "getCategoryIdList": {
+    "code": 0,
+    "result": [
+      {
+        "label": "精选",
+        "count": 1,
+        "parentOptId": 0,
+        "value": 8569
+      },
+      {
+        "label": "百货",
+        "count": 12,
+        "parentOptId": 0,
+        "value": 8590
+      },
+      {
+        "label": "母婴",
+        "count": 3,
+        "parentOptId": 0,
+        "value": 8587
+      },
+      {
+        "label": "食品",
+        "count": 1,
+        "parentOptId": 0,
+        "value": 8584
+      },
+      {
+        "label": "女装",
+        "count": 8,
+        "parentOptId": 0,
+        "value": 8572
+      },
+      {
+        "label": "电器",
+        "count": 2,
+        "parentOptId": 0,
+        "value": 9019
+      },
+      {
+        "label": "鞋包",
+        "count": 19,
+        "parentOptId": 0,
+        "value": 8605
+      },
+      {
+        "label": "内衣",
+        "count": 28,
+        "parentOptId": 0,
+        "value": 8599
+      },
+      {
+        "label": "美妆",
+        "count": 1,
+        "parentOptId": 0,
+        "value": 8593
+      },
+      {
+        "label": "男装",
+        "count": 11,
+        "parentOptId": 0,
+        "value": 8581
+      },
+      {
+        "label": "水果",
+        "count": 21,
+        "parentOptId": 0,
+        "value": 13
+      },
+      {
+        "label": "家纺",
+        "count": 25,
+        "parentOptId": 0,
+        "value": 8602
+      },
+      {
+        "label": "运动",
+        "count": 13,
+        "parentOptId": 0,
+        "value": 8596
+      },
+      {
+        "label": "汽车",
+        "count": 17,
+        "parentOptId": 0,
+        "value": 2048
+      },
+      {
+        "label": "家装",
+        "count": 31,
+        "parentOptId": 0,
+        "value": 8608
+      },
+      {
+        "label": "家具",
+        "count": 10,
+        "parentOptId": 0,
+        "value": 8611
+      }
+    ]
+  },
+  "getCategoryList": {
+    "code": 0,
+    "result": {
+      "功能测试1": [
+        {
+          "id": "aaaa",
+          "name": "aaaa",
+          "description": "aaaa",
+          "key": "aaaa",
+          "iconUrl": "https://mimos.cn/webppt/img/bg.png"
+        }
+      ],
+      "功能测试2": [
+        {
+          "id": "bbbb",
+          "name": "bbbb",
+          "description": "bbbb",
+          "key": "bbbb",
+          "iconUrl": "https://mimos.cn/webppt/img/bg.png"
+        },
+        {
+          "id": "cccc",
+          "name": "cccc",
+          "description": "cccc",
+          "key": "cccc",
+          "iconUrl": "https://lduoduo.github.io/public/img/icon.png"
+        },
+        {
+          "id": "dddd",
+          "name": "dddd",
+          "description": "dddd~",
+          "key": "dddd",
+          "iconUrl": "https://lduoduo.github.io/public/img/music.png"
+        }
+      ],
+      "功能测试3": [
+        {
+          "id": "eeee",
+          "name": "eeee",
+          "description": "eeee",
+          "key": "eeee",
+          "iconUrl": "https://lduoduo.github.io/public/img/music.png"
+        },
+        {
+          "id": "gggg",
+          "name": "gggg",
+          "key": "gggg"
+        },
+        {
+          "id": "agaegaw",
+          "name": "fewaef",
+          "description": "aeawgewag",
+          "key": "ewagewagwa",
+          "iconUrl": "https://lduoduo.github.io/public/img/icon.png"
+        }
+      ],
+      "功能测试4": [
+        {
+          "id": "gewagwgea",
+          "name": "gewagewag",
+          "description": "gewageawgeaw",
+          "key": "agewaegag"
+        }
+      ],
+      "功能测试5": [
+        {
+          "id": "eherhewher",
+          "name": "herwhewhrew",
+          "description": "hehrewhewhre~",
+          "key": "whrewhreh",
+          "iconUrl": "https://lduoduo.github.io/public/img/music.png"
+        }
+      ],
+      "功能测试6": [
+        {
+          "id": "rthrejtre",
+          "name": "gesgrsgesg",
+          "key": "sgesgresgres"
+        }
+      ],
+      "功能测试7": [
+        {
+          "id": "agewagewger",
+          "name": "agewgergesg",
+          "key": "gerhtr"
+        },
+        {
+          "id": "hrtherheshre",
+          "name": "hrtdhthsr",
+          "description": "eshreherrhr",
+          "key": "shrehrth"
+        }
+      ],
+      "功能测试8": [
+        {
+          "id": "kyukyuky",
+          "name": "kkuykyuky",
+          "key": "yukyukykuyk",
+          "iconUrl": "https://lduoduo.github.io/public/img/icon.png"
+        },
+        {
+          "id": "ynerthr",
+          "name": "thtrhthr",
+          "key": "erherherh",
+          "iconUrl": "https://lduoduo.github.io/public/img/music.png"
+        }
+      ]
+    }
+  },
+  "getCategoryList1": {
+    "code": 1000,
+    "result": {
+      "totalcount": 10000,
+      "list": [
+        {
+          "goodsId": 9223372036854775807,
+          "goodsName": "电动牙刷成人非充电式声波超自动软毛防水美白情侣智能家用",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2019-08-16/368c3d731c80b188197f783d7096f0dc.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "2.4万",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 3.4,
+          "vipPromotionPrice": 3.6,
+          "myPromotionPrice": 3.4,
+          "minPrice": 29.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "牙刷士多店",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 146781826562,
+          "goodsName": "认养一头牛常温原味酸奶200g*12盒*2箱风味酸牛奶整箱批特价",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-22/d5e1d1e082b1fe0b59edaaf6b46b5404.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "7125",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 13.6,
+          "vipPromotionPrice": 14.4,
+          "myPromotionPrice": 13.6,
+          "minPrice": 89.000,
+          "discountMinPrice": 79.0,
+          "collect": false,
+          "mallName": "认养一头牛",
+          "merchantType": 5
+        },
+        {
+          "goodsId": 2338511,
+          "goodsName": "【4-10斤】薰衣草香氛洗衣液正品香味持久留香低泡易漂家庭装批发",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2018-10-11/4f76d68b1123c812e8e8dce4fb45be69.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.3,
+          "vipPromotionPrice": 1.4,
+          "myPromotionPrice": 1.3,
+          "minPrice": 9.900,
+          "discountMinPrice": 7.9,
+          "collect": false,
+          "mallName": "语衣甘蓝旗舰店",
+          "merchantType": 3
+        },
+        {
+          "goodsId": 448077295,
+          "goodsName": "多功能切菜器土豆丝切丝神器刨丝器切片器厨房用品家用刮丝擦丝器",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2019-07-29/b215dc71bedb3422c6dcb8ccd981bd64.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.7,
+          "vipPromotionPrice": 1.8,
+          "myPromotionPrice": 1.7,
+          "minPrice": 29.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "亦轩百货",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 64724209041,
+          "goodsName": "【发2支】无限极牙膏植雅正品牙龈出血除口臭美白牙齿消炎去火",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-03-10/b288d153f082cc3274123caaf6ca7031.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "9.4万",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.7,
+          "vipPromotionPrice": 1.8,
+          "myPromotionPrice": 1.7,
+          "minPrice": 19.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "陈青青的小店",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 5018662,
+          "goodsName": "大浴巾毛巾成人比纯棉吸水男女加厚加大号套装男女洗澡儿童批发",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-01-13/259bd7c1315b3ff7984f70c031c3281c.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.9,
+          "vipPromotionPrice": 3.1,
+          "myPromotionPrice": 2.9,
+          "minPrice": 32.800,
+          "discountMinPrice": 12.8,
+          "collect": false,
+          "mallName": "泓茂异享专卖店",
+          "merchantType": 4
+        },
+        {
+          "goodsId": 45799081060,
+          "goodsName": "维科家纺 磨毛单被套被罩被壳单件亲肤简约学生宿舍单人双人",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/images/2019-09-19/23b5533927a44c4bfbb7a51dd2fd2025.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.5,
+          "vipPromotionPrice": 2.7,
+          "myPromotionPrice": 2.5,
+          "minPrice": 29.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "维科家纺苡虹轩专卖店",
+          "merchantType": 4
+        },
+        {
+          "goodsId": 2243135701,
+          "goodsName": "特大号碗莲花盆紫砂透气多肉花盆水仙水培盆铜钱草菖蒲剑山插花盆",
+          "goodsThumbnailUrl": "https://t17img.yangkeduo.com/images/2018-07-17/257b7016e8fa6ebd658f7efaa71e79dc.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "4565",
+          "couponDiscount": 1.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.7,
+          "vipPromotionPrice": 2.9,
+          "myPromotionPrice": 2.7,
+          "minPrice": 21.000,
+          "discountMinPrice": 20.0,
+          "collect": false,
+          "mallName": "汉兴花盆",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 3336730620,
+          "goodsName": "4斤5斤瓶装薰衣草香氛洗衣液无荧光剂无磷低泡易漂持久留香家庭装",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-05-20/cc1866ba538de7b2e060af0b094df821.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "3.7万",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.7,
+          "vipPromotionPrice": 1.8,
+          "myPromotionPrice": 1.7,
+          "minPrice": 19.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "亮彩生活屋",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 96204509482,
+          "goodsName": "艾草驱蚊膏蚊虫叮咬止痒消肿王防蚊子药婴幼儿童成人皮肤瘙痒药膏",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-05-16/b980c3721ac4292eb9e1a43f1fc8f09b.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "9.7万",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.4,
+          "vipPromotionPrice": 1.5,
+          "myPromotionPrice": 1.4,
+          "minPrice": 9.900,
+          "discountMinPrice": 7.9,
+          "collect": false,
+          "mallName": "康肤护理",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 98328428039,
+          "goodsName": "男童夏季短袖套装2020新款中大童洋气舒适速干运动衣儿童篮球服潮",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-06-19/9f3dc8f865a236615dd8f789efbdc8b4.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "8624",
+          "couponDiscount": 1.000,
+          "hasCoupon": true,
+          "promotionPrice": 4.6,
+          "vipPromotionPrice": 4.8,
+          "myPromotionPrice": 4.6,
+          "minPrice": 27.800,
+          "discountMinPrice": 26.8,
+          "collect": false,
+          "mallName": "鑫达童装服饰",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 96277904910,
+          "goodsName": "皇冠水洗棉空调被夏凉被双人夏季薄被子儿童单人学生夏天薄款夏被",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-03-20/14c2f248aad1b169309cc9d49dd799d7.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "7989",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.2,
+          "vipPromotionPrice": 2.3,
+          "myPromotionPrice": 2.2,
+          "minPrice": 14.900,
+          "discountMinPrice": 12.9,
+          "collect": false,
+          "mallName": "皇冠江米专卖店",
+          "merchantType": 4
+        },
+        {
+          "goodsId": 2170730546,
+          "goodsName": "宁夏红枸杞子 青海黑枸杞组合 40g/100g/150g罐装新货中宁苟杞子",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2019-01-12/03984956012d51327daf8c416ce56125.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.0,
+          "vipPromotionPrice": 2.1,
+          "myPromotionPrice": 2.0,
+          "minPrice": 11.610,
+          "discountMinPrice": 9.61,
+          "collect": false,
+          "mallName": "徽洛堂官方旗舰店",
+          "merchantType": 3
+        },
+        {
+          "goodsId": 1972905699,
+          "goodsName": "【买20个送20个】广式月饼莲蓉蛋黄月饼五仁月饼豆沙水果零食批发",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-08/65bdaf7e6db4738544d115c831b2f6bf.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "3.6万",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 3.4,
+          "vipPromotionPrice": 3.6,
+          "myPromotionPrice": 3.4,
+          "minPrice": 9.900,
+          "discountMinPrice": 7.9,
+          "collect": false,
+          "mallName": "大浪食品专营店",
+          "merchantType": 5
+        },
+        {
+          "goodsId": 40824378355,
+          "goodsName": "【大号抽纸】淘也纸巾家用抽纸批发整箱餐巾纸面巾纸抽取式卫生纸",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-02-23/edc1fdbd73b5cf3abc1444682b5efe50.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.0,
+          "vipPromotionPrice": 1.0,
+          "myPromotionPrice": 1.0,
+          "minPrice": 21.900,
+          "discountMinPrice": 11.9,
+          "collect": false,
+          "mallName": "淘也纸巾",
+          "merchantType": 6
+        },
+        {
+          "goodsId": 122960819583,
+          "goodsName": "自动桶装水抽水器电动压水器饮水机抽水泵纯净水矿泉水抽水器家用",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-04/ea56b712397a298fe1ae2aece85e660b.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "6267",
+          "couponDiscount": 1.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.0,
+          "vipPromotionPrice": 2.1,
+          "myPromotionPrice": 2.0,
+          "minPrice": 16.990,
+          "discountMinPrice": 15.99,
+          "collect": false,
+          "mallName": "维艾佳品居家生活馆",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 76404359402,
+          "goodsName": "【五件套】不锈钢盆圆形加厚加深盆子家用厨房装汤和面洗菜沥水盆",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2019-12-14/b2318e1a777fb0d59373120cba7eaa9b.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.1,
+          "vipPromotionPrice": 2.2,
+          "myPromotionPrice": 2.1,
+          "minPrice": 33.900,
+          "discountMinPrice": 13.9,
+          "collect": false,
+          "mallName": "鑫榕官方旗舰店",
+          "merchantType": 3
+        },
+        {
+          "goodsId": 123477673577,
+          "goodsName": "火山石烤肠台湾风味热狗肠黑胡椒原味地道肠烧烤大香肠批发500g",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-05-17/a04ece05039d4c2d89a6ad72e927d23a.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "8670",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.9,
+          "vipPromotionPrice": 0.9,
+          "myPromotionPrice": 0.9,
+          "minPrice": 30.900,
+          "discountMinPrice": 10.9,
+          "collect": false,
+          "mallName": "欣赏食品浩响店",
+          "merchantType": 1
+        },
+        {
+          "goodsId": 3116173878,
+          "goodsName": "【领券减2】豆干零食大礼包休闲零食小吃豆腐干豆制品批发小包装",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-05/950e52c886bc85da4a493baebb189efd.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "10万+",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.9,
+          "vipPromotionPrice": 1.0,
+          "myPromotionPrice": 0.9,
+          "minPrice": 6.500,
+          "discountMinPrice": 4.5,
+          "collect": false,
+          "mallName": "禾宽企业店",
+          "merchantType": 6
+        },
+        {
+          "goodsId": 121522938835,
+          "goodsName": "【清仓甩卖】卫生纸卷纸批发 家用厕纸手纸卫生间 纸巾卷纸家庭装",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-06-16/5c614865c05eda8a90e93ffc644df0db.jpeg@300w_1l_90Q.JP2",
+          "salesTip": "5.8万",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.8,
+          "vipPromotionPrice": 0.9,
+          "myPromotionPrice": 0.8,
+          "minPrice": 19.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "淘也官方旗舰店",
+          "merchantType": 3
+        }
+      ]
+    }
+  },
+  "getHotList": {
+    "code": 0,
+    "result": {
+      "totalcount": 2334,
+      "list": [
+        {
+          "goodsId": 9223372036854775807,
+          "goodsName": "认养一头牛常温原味酸奶200g*12盒*2箱风味酸牛奶整箱批特价",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-22/d5e1d1e082b1fe0b59edaaf6b46b5404.jpeg",
+          "salesTip": "7273",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 13.6,
+          "vipPromotionPrice": 14.4,
+          "myPromotionPrice": 13.6,
+          "minPrice": 89.000,
+          "discountMinPrice": 79.0,
+          "collect": false,
+          "mallName": "认养一头牛",
+          "merchantType": 5,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-22/2c48f60a-a212-43ee-aa54-07281e4c2bd3.png.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/848bf29a-f61c-4aa5-9d18-d842ede9ab15.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/83ae93f4-cee6-4fd2-aad6-38caf4f0b87b.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/0f8d2dae-406e-4211-91b1-102b1570b89a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/e319507a-05d7-46e9-a2ec-15701444898c.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/7855a948-0687-42e8-a9c4-11a2f45c35fa.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/931ec1c0-d61f-48ad-8c0b-f5710b1b0c97.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/36ede6fc-ff7c-4f10-a57b-09aaa7895e05.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/1e2787b3-091a-4f92-84c6-a466594b4dcc.jpeg"
+          ],
+          "shareCount": 7273
+        },
+        {
+          "goodsId": 130758382930,
+          "goodsName": "原木抽纸整箱批发家用餐巾纸妇婴面巾纸加厚纸巾实惠家庭装卫生纸",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-06/a90fd6660a1da31d8ea3ca2aab73467b.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 3.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.7,
+          "vipPromotionPrice": 0.8,
+          "myPromotionPrice": 0.7,
+          "minPrice": 11.800,
+          "discountMinPrice": 8.8,
+          "collect": false,
+          "mallName": "一绵纸品家居",
+          "merchantType": 1,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-06/256d8693-4057-4186-8dd0-fb71b30c8af0.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/243d5164-971a-47d2-8bb7-7c1b66199095.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/9b9374a4-c705-4c79-87a5-21da3bbd3fe9.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/abfb34a0-e491-4e72-8d80-2b82abf7b744.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/b86ee85f-a6bd-473e-9ca4-ed2c6ad94612.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/0297f822-2882-4390-915f-4edf5a5d4c2d.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/3badbbb7-7636-4b14-b009-f578479ec57c.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/f2c5bf6d-17fc-4c3d-8b3f-ae748a4f53a0.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/57f5e58c-f3a5-42bb-8336-53d2a22794f9.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-06/3badbbb7-7636-4b14-b009-f578479ec57c.jpeg"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 1029739965,
+          "goodsName": "正宗烟台栖霞红富士苹果5/10斤 当季山东新鲜水果整箱批发包脆甜",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-19/1fe5cccbb24eb6670d2070a96f9bf833.jpeg",
+          "salesTip": "5234",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.4,
+          "vipPromotionPrice": 0.4,
+          "myPromotionPrice": 0.4,
+          "minPrice": 19.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "贝贝生鲜果蔬",
+          "merchantType": 6,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-19/bcca2ca2-5e37-467e-a7f6-3e244a628a64.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-08/294d1665-c7cb-4d1f-8877-1951306caebc.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-08/872b43b3-8ed0-4476-a6d4-e1d20e79d753.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-07/bb87fcfe-76ce-488e-87e2-5f3e7fd849e8.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-07/e578b397-7e89-4f0a-9097-1d347c8b884f.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-07/e746482e-f16b-47ac-9fd2-d94276c54b9c.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-07/628b1277-6b24-4d20-9ae0-c604ff05bc3a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-07/ff76653b-c2c2-4afa-9838-922b583cb51c.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-07/08a540a0-fed7-4b2c-8c86-2a79261dcea9.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-19/bb7385cc-2b82-459e-9bb2-b522bc660ddc.jpg.a.jpeg"
+          ],
+          "shareCount": 5234
+        },
+        {
+          "goodsId": 155895213219,
+          "goodsName": "Apple AirPods 2 蓝牙耳机适用iPhone/iPad/Apple Watch有线版",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-21/524f4df5b5a66dafcba11d9ca93037ad.jpeg",
+          "salesTip": "663",
+          "couponDiscount": 0.000,
+          "hasCoupon": false,
+          "promotionPrice": 0.7,
+          "vipPromotionPrice": 0.7,
+          "myPromotionPrice": 0.7,
+          "minPrice": 839.000,
+          "discountMinPrice": 839.0,
+          "collect": false,
+          "mallName": "Apple",
+          "merchantType": 5,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-21/28a0f0b0-e91a-43b9-8cbb-a6327df317a7.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/4eaad571-44e9-46b5-b6f4-fe37f9797cd7.jpeg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/75680abd-bd3e-4573-ac79-8b881b3273aa.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/57641af8-9c02-4022-9d34-2e933fac7101.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/4e6b7276-d374-4006-926a-ced5b745cd69.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/77b53fd7-a0a0-4fee-8502-c86e55ad6128.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/f8b7cd8b-a8d4-4aa8-834c-499cc8ccd5b4.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/e9e29134-071a-4904-90a1-b6175f88a3a1.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-21/25312a3e-d827-4bec-921d-895e6f3e0ab8.jpeg.a.jpeg"
+          ],
+          "shareCount": 663
+        },
+        {
+          "goodsId": 146796751961,
+          "goodsName": "认养一头牛全脂纯牛奶250ml*12盒*2箱早餐营养牛奶整箱批特价",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-19/2a3e47ffc25ad25c79b391b643d47481.jpeg",
+          "salesTip": "3319",
+          "couponDiscount": 15.000,
+          "hasCoupon": true,
+          "promotionPrice": 14.5,
+          "vipPromotionPrice": 15.3,
+          "myPromotionPrice": 14.5,
+          "minPrice": 99.000,
+          "discountMinPrice": 84.0,
+          "collect": false,
+          "mallName": "认养一头牛",
+          "merchantType": 5,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-19/43c2873f-20a6-4e48-8a84-0b7f7d4bcc97.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/454de2f6-5876-4488-8639-951cc192f1a4.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/f7dd0996-51de-4748-b335-ac778cd84afa.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/94efe472-39cf-4578-8d31-f85e316446fc.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/9618fdd4-d9ff-4cc2-b9f7-77d7fcdf0532.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/6aa52078-c0c5-4ad5-b6ba-ad777ffae3c0.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/83be1826-e8b4-4f5e-b406-f6eae5c5146b.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-02/c43cf200-9817-4cdd-bc01-cb396ed994a3.jpeg"
+          ],
+          "shareCount": 3319
+        },
+        {
+          "goodsId": 22595223183,
+          "goodsName": "植护40包/24包原木纸巾抽纸巾批发家用整箱妇婴卫生纸面巾餐巾纸",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-04-24/b35ff572ec9b52a545c36a32a0d1751b.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 0.000,
+          "hasCoupon": false,
+          "promotionPrice": 0.0,
+          "vipPromotionPrice": 0.0,
+          "myPromotionPrice": 0.0,
+          "minPrice": 17.500,
+          "discountMinPrice": 17.5,
+          "collect": false,
+          "mallName": "植护旗舰店",
+          "merchantType": 3,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/88172bd9-dc9f-4da8-b222-8a8f77c0b802.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/6897941f-1122-4e30-b5f5-1939fa0e8f8e.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/2325e858-ac68-4d7e-bf69-136f7f2fb6fc.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/3979da90-dbac-4ca4-a878-346de8311be1.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/62484a1d-b1d4-43ec-8f94-a79f9ca17078.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/a563eae8-1b3d-4a6f-b292-6b356903f5f9.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-08/54860f6b-f3ef-42b9-8f05-2f18aa35e570.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/6f40246c-d37d-4dbc-b9d0-afd74db94dca.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/55487479-d74c-4a1f-85e3-2461dda897ec.png"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 98076200392,
+          "goodsName": "100%纯棉短袖t恤男士新款夏季潮流宽松半袖男体恤大码衣服ins潮牌",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-05-11/4d62a77603348ca2208b5800802a6a9b.jpeg",
+          "salesTip": "3.7万",
+          "couponDiscount": 1.000,
+          "hasCoupon": true,
+          "promotionPrice": 3.2,
+          "vipPromotionPrice": 3.4,
+          "myPromotionPrice": 3.2,
+          "minPrice": 19.900,
+          "discountMinPrice": 18.9,
+          "collect": false,
+          "mallName": "诚治原名",
+          "merchantType": 1,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2020-05-11/2eac090c2db185db9f559f2eaac8c78b.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-01/1090989860b7cad92de1e6be87849959.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-11/cf27a678c48d1199a9a63d603d8a1732.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-01/ff2fc2180922be0238f3983e1d324acd.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-01/c6f330b92f447a0a23804e055e451132.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-25/cd07fd31afbb3ea8ee7977dd03cecda8.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-25/bbe1be6e76732e9ae0e5154b22d65c55.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-25/72e8ad0e43266e6b494fe894279c07c8.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-25/7977121491d952032eaaec08a0b1ef51.jpeg"
+          ],
+          "shareCount": 3700
+        },
+        {
+          "goodsId": 129076719850,
+          "goodsName": "【全新正品国行】Apple/苹果 iPhone SE 2代 苹果手机 全网通手机",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-21/91f93f4c18da47bd224cf3ca301476b7.jpeg",
+          "salesTip": "7.2万",
+          "couponDiscount": 0.000,
+          "hasCoupon": false,
+          "promotionPrice": 2.4,
+          "vipPromotionPrice": 2.5,
+          "myPromotionPrice": 2.4,
+          "minPrice": 2809.000,
+          "discountMinPrice": 2809.0,
+          "collect": false,
+          "mallName": "Apple",
+          "merchantType": 3,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-21/f9026157-6ecc-484a-8258-f65cd814935f.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-06-27/d276b776-024d-486d-8988-349f957330c0.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-28/94d7ae95-09e1-458b-a709-3bfa949e6d81.png",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-28/be2a8bc0-9fca-45b2-a359-1631d81317e7.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-28/2b2216a4-bcf0-4b53-95bb-981caa2d6d56.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-28/f1e72b32-2b39-428e-8076-89eee750927f.jpg"
+          ],
+          "shareCount": 7200
+        },
+        {
+          "goodsId": 111780175985,
+          "goodsName": "【30片】芦荟面膜补水保湿美白淡斑祛痘控油提亮肤色晒后修复男女",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-04-23/7bec9a2cb8c1fb67543fa244321b8a93.jpeg",
+          "salesTip": "3042",
+          "couponDiscount": 3.000,
+          "hasCoupon": true,
+          "promotionPrice": 14.7,
+          "vipPromotionPrice": 15.5,
+          "myPromotionPrice": 14.7,
+          "minPrice": 59.800,
+          "discountMinPrice": 56.8,
+          "collect": false,
+          "mallName": "化蝶美妆生活馆",
+          "merchantType": 1,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/4aa2b537-3e7e-475c-802d-b63788969a6d.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/070f027f-f49c-40f3-8463-034a1731c48c.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-25/bc2ef4b2-0229-43e1-b43b-99fd2c4f271b.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-25/9a96353d-8b75-4e6e-a4dd-840e87446dff.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/7ece9deb-7b11-4301-92b7-f910d17e3f28.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/015ae451-b8cd-4899-b7e8-234eec47b122.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/28e8ee70-0475-4d39-b4e8-f4f7e788bf9d.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/283e053a-88e6-49cd-94a3-d9a5125eb298.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-14/a516ec00-20f6-4e0e-8e75-8285bd60e48b.jpg"
+          ],
+          "shareCount": 3042
+        },
+        {
+          "goodsId": 66011270962,
+          "goodsName": "42包 14包 本色抽纸批发整箱面巾纸亮纯家用卫生纸巾妇婴餐巾纸抽",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-06/44e36e40e139362e80d85660ecd39227.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 3.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.1,
+          "vipPromotionPrice": 0.1,
+          "myPromotionPrice": 0.1,
+          "minPrice": 9.900,
+          "discountMinPrice": 6.9,
+          "collect": false,
+          "mallName": "雪狐纸品专营店",
+          "merchantType": 5,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/dfe9ce01-9418-4a01-a1fe-6367b98de078.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-28/eb70a912-20ea-4908-a639-214dfcf331e0.jpg",
+            "https://img.pddpic.com/mms-material-img/2020-06-30/003d9f4e-3ac3-4569-8a2e-47c53298eb23.jpg",
+            "https://img.pddpic.com/mms-material-img/2020-06-30/ff6465a5-7ad4-467c-921e-caef63dbe083.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/f2ce5afa-c14f-4089-a969-d1f9770c2aec.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/d0b6a6ec-3f33-4eb6-822a-ab3d6fc6b797.png",
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/f3b2e9b5-72e3-4931-b071-65716d398ce7.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/10ac20e7-43e2-4c84-8c34-2e1c7f338e19.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/b206f4cc-4a2f-442a-b4e4-186824a867f6.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-11-16/00dc3711-571c-4701-8793-09f5e1029018.png"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 124016425636,
+          "goodsName": "Apple AirPods Pro 苹果主动降噪无线蓝牙耳机 适用iPhone/iPad",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-06-22/4e6c9cd60869a51610d4162426ea83a7.jpeg",
+          "salesTip": "1万",
+          "couponDiscount": 0.000,
+          "hasCoupon": false,
+          "promotionPrice": 1.2,
+          "vipPromotionPrice": 1.3,
+          "myPromotionPrice": 1.2,
+          "minPrice": 1498.000,
+          "discountMinPrice": 1498.0,
+          "collect": false,
+          "mallName": "Apple",
+          "merchantType": 5,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-06-21/2cf059d5-4db3-4d60-be21-f90b13e0579a.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-22/3a6998b6-41b4-44fe-80df-15c8b210f75a.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-22/6009c0f6-55e9-4b7b-beb0-fb7aa7d70ffc.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-22/894aa165-cdc0-4294-9a18-0102729a4c49.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-22/a1b85aab-7a35-4df5-83b4-732d9e34df1b.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-22/b5447a15-04f0-4517-970d-b1e172517b79.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-22/f5978a5c-1f88-4d72-9ac8-32c07f1a77c1.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/51d53510016d500719682dfa5c11e587.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-24/e59b7080fee426faf94592c984bac5a4.jpeg"
+          ],
+          "shareCount": 1000
+        },
+        {
+          "goodsId": 14759163,
+          "goodsName": "(超值4支)正品中药牙膏薄荷香型清热去火消炎止痛美白去口臭",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-04-23/858868e0f397270109bfa5eb2f2e5499.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.5,
+          "vipPromotionPrice": 2.7,
+          "myPromotionPrice": 2.5,
+          "minPrice": 29.900,
+          "discountMinPrice": 9.9,
+          "collect": false,
+          "mallName": "薇薇家居生活",
+          "merchantType": 1,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/3f5dc917-830e-41d8-a122-75971e0802c7.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/0aba3dbb-a804-40ae-8b06-95b14d5b2f55.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/73ded674-7949-43bc-9aab-cfe27436f887.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/6d9a2e2b-c31a-4e25-b367-dfe8934934da.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-04-23/710b648f-895d-4943-aa40-a57bbf685583.jpg"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 132548436385,
+          "goodsName": "【买2送2】红豆薏米茶祛湿茶水果组合养生茶养肝花茶30包150g盒装",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-06-03/f08993b9e93743ad4c4bf6d0c5d6d320.jpeg",
+          "salesTip": "1376",
+          "couponDiscount": 1.000,
+          "hasCoupon": true,
+          "promotionPrice": 3.0,
+          "vipPromotionPrice": 3.2,
+          "myPromotionPrice": 3.0,
+          "minPrice": 9.800,
+          "discountMinPrice": 8.8,
+          "collect": false,
+          "mallName": "半夏茶舍",
+          "merchantType": 6,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-06-03/2e22d4d6-c286-4ec4-be1a-e345a4dbe16a.jpeg",
+            "https://t16img.yangkeduo.com/garner-api/208ee7f983ae474b5ddc23b2d95eddda.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/5e1363d4-c245-4b02-b96b-37596023186c.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/40b88dc7-4866-4dfa-b726-4acfa687ae5c.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/d58d06fc-e9ee-47a9-b368-8b79b5fd734f.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/3dd0c261-3bfe-4632-9612-5a43ae82bd97.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/f6a3715c-4ecd-4177-9622-69ac5a9f6a38.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/dad429bb-97f7-4e8e-b68b-8c086b36eac7.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/ac5fee6f-4264-42db-b3f5-4f541278de24.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-03/966299d4-033a-430f-8dc1-5771897ae246.jpeg"
+          ],
+          "shareCount": 1376
+        },
+        {
+          "goodsId": 2338511,
+          "goodsName": "【4-10斤】薰衣草香氛洗衣液正品香味持久留香低泡易漂家庭装批发",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2018-10-11/4f76d68b1123c812e8e8dce4fb45be69.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 2.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.3,
+          "vipPromotionPrice": 1.4,
+          "myPromotionPrice": 1.3,
+          "minPrice": 9.900,
+          "discountMinPrice": 7.9,
+          "collect": false,
+          "mallName": "语衣甘蓝旗舰店",
+          "merchantType": 3,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2018-10-11/340a8df38625128267232f6828d2a0b6.jpeg",
+            "https://t00img.yangkeduo.com/t09img/images/2018-07-11/ef9145c73254baaf7cd1a5179f8184cd.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-09-14/09f1cd686fdec767f370809c5ceb1b56.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-09-14/e29807bbea24d19da0cb4deeee6652ac.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2019-03-22/62fadbb7-2fd3-4190-a9e9-ab83f9dbfdaa.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-08-18/7b793994-1f3f-4ab7-bbc3-f74bf7516bbe.jpg"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 5018662,
+          "goodsName": "大浴巾毛巾成人比纯棉吸水男女加厚加大号套装男女洗澡儿童批发",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-01-13/259bd7c1315b3ff7984f70c031c3281c.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 20.000,
+          "hasCoupon": true,
+          "promotionPrice": 2.9,
+          "vipPromotionPrice": 3.1,
+          "myPromotionPrice": 2.9,
+          "minPrice": 32.800,
+          "discountMinPrice": 12.8,
+          "collect": false,
+          "mallName": "泓茂异享专卖店",
+          "merchantType": 4,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2020-01-13/e31edd07-d320-48b3-a7b5-ee4bb071383c.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-12-20/3ccd4e71-9883-4307-959e-a08460753e48.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-03-31/345e2beb-a912-46b8-8930-5a9b4add48bb.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-12-20/5a61b9a4-9ef3-4cf2-ae2c-f354c96e5a14.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-03-26/24da3f15-6f57-4bb1-b48a-aaed01489b1f.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-01-25/d9fb3d03-ed96-48d8-ad51-3bba1d71fa41.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-01-25/c74bed80-8ad9-4aa0-9436-c4eb27aede79.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-01-25/fd1e83ad-292c-467d-80e5-41b2ae34765c.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-03-31/546e448e-fee3-4343-b988-5e17d8709a93.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-04-05/922faae2-38bf-453f-9c13-05303ce69390.jpg"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 127599802968,
+          "goodsName": "电动车头盔男女士夏季防晒防紫外线遮阳四季盔双镜非摩托车安全帽",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-05-25/fa3edda0a52d18ce0cad3dd273029019.jpeg",
+          "salesTip": "2.3万",
+          "couponDiscount": 10.000,
+          "hasCoupon": true,
+          "promotionPrice": 1.8,
+          "vipPromotionPrice": 1.9,
+          "myPromotionPrice": 1.8,
+          "minPrice": 20.600,
+          "discountMinPrice": 10.6,
+          "collect": false,
+          "mallName": "观湘七队阿龙百货",
+          "merchantType": 1,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/ee554edb-9511-41ac-838b-feae535fa111.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/1ae1307f-95f0-4f76-ba05-89e03b4c773f.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/8a1b3ffd-63a7-494b-b216-0a84453ec918.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/88076b51-cbe2-4d4f-a803-93be837f3260.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/525a0c29-af98-4a88-9048-83aba028a478.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/2d2ce37f-2da9-40ec-9907-1cbaea90f381.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/d718b443-9636-44e8-9a1b-307ba18c1698.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/b4e99f7b-0ece-4fcf-ac02-870e1642265f.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-05-25/bffd55b0-65df-4abb-8150-288aac392302.jpg"
+          ],
+          "shareCount": 2300
+        },
+        {
+          "goodsId": 141747618938,
+          "goodsName": "【顺丰包邮】 黄桃水果新鲜桃子水果现摘现发5斤包邮应季酸甜黄桃",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-06-21/65b27a7ec34fcbe00626d211daac3674.jpeg",
+          "salesTip": "1.5万",
+          "couponDiscount": 9.000,
+          "hasCoupon": true,
+          "promotionPrice": 4.1,
+          "vipPromotionPrice": 4.3,
+          "myPromotionPrice": 4.1,
+          "minPrice": 24.900,
+          "discountMinPrice": 15.9,
+          "collect": false,
+          "mallName": "皮蛋献果官方旗舰店",
+          "merchantType": 3,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-06-16/86dafd31-a81d-4b2a-b59c-0c4e719450bf.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-02/d23d96eb-973f-4813-ad49-f5e552c9922a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-02/5055393a-8f6d-49aa-9d8d-290d3d2b3ad0.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-02/30b19de0-35f8-45b3-b158-09d6ca9c0581.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-02/18cd1a78-c34b-47f1-897e-8cdfe2622344.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-02/b10e0d60-62e9-430e-9326-46bb53bdc086.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-02/0c394ff1-3ede-42b9-a78b-ec529c7657c5.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-17/9687a018-75a7-47de-8c41-414ee46111fa.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-06-17/b0cdca88-c9f5-4874-9897-f10236d81431.jpeg"
+          ],
+          "shareCount": 1500
+        },
+        {
+          "goodsId": 30124365,
+          "goodsName": "【72卷/32卷巨量装】臻木竹浆本色卫生纸巾卷纸批发家用卷筒纸厕",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2019-07-17/c10e6bbbe96a7280e481a5b109aa41fe.jpeg",
+          "salesTip": "10万+",
+          "couponDiscount": 3.000,
+          "hasCoupon": true,
+          "promotionPrice": 0.1,
+          "vipPromotionPrice": 0.1,
+          "myPromotionPrice": 0.1,
+          "minPrice": 20.800,
+          "discountMinPrice": 17.8,
+          "collect": false,
+          "mallName": "臻木恒信专卖店",
+          "merchantType": 4,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2019-07-17/df361dc4-a77d-47da-bbe5-5c7875f5f706.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-07-17/95924144-265c-47c7-a5d2-8ce3fd434c89.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-07-17/17f1fde5-99c4-40c6-9227-27a9eadf41f6.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2019-07-27/c808e626-81a1-4578-8646-db59615cdf6b.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-19/8e56916b-61d8-4218-a58d-82d7cd343523.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-19/c5426ad6-559a-45cb-bf21-bab82642f725.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-21/5457ae22-9cdd-49e7-965b-957ade98967b.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-23/8c5cf416-fe25-460a-98d4-31b73cf587de.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-23/eb15185d-7477-45b3-b8ff-1b5d777c03b2.jpg",
+            "https://t00img.yangkeduo.com/goods/images/2020-03-23/b817e96b-1918-47a2-b30a-1fa0f5a2fa8e.jpg"
+          ],
+          "shareCount": 10000
+        },
+        {
+          "goodsId": 805504266,
+          "goodsName": "厨房收纳架不锈钢脸盆架子加厚卫生间置物架多层四角架厕所落地架",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2018-12-03/74d6c7ddedc3c1543c3d9ed96bfa591c.jpeg",
+          "salesTip": "1.8万",
+          "couponDiscount": 0.000,
+          "hasCoupon": false,
+          "promotionPrice": 3.3,
+          "vipPromotionPrice": 3.5,
+          "myPromotionPrice": 3.3,
+          "minPrice": 13.110,
+          "discountMinPrice": 13.11,
+          "collect": false,
+          "mallName": "依美家莉",
+          "merchantType": 1,
+          "imageList": [
+            "https://t00img.yangkeduo.com/goods/images/2018-12-03/73402500ed475b41a476364ed7da4ccc.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/489c45c65d3f538acccf817f3b16a2f7.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/f18140e939d0d24f5906b76ae66f0212.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/aa8a52a8b18260154a0540458891a570.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/919715b059455e3fa5eefbbdb74c86e0.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/23a8f8052d8cc4d2323347d847a7671f.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/f0fbe7cfdd6f5d49cebed82ae57b65ae.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/e8522284b80d1e79bb8e9d26e7701733.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/7eca1a786a7bb763b24da7d0728fba62.jpeg",
+            "https://t00img.yangkeduo.com/goods/images/2018-08-15/e40107ee48f027ee677ed441160a6070.jpeg"
+          ],
+          "shareCount": 1800
+        },
+        {
+          "goodsId": 138732362149,
+          "goodsName": "任天堂Switch游戏NS 健身环大冒险 Ring fit Adventure 中文现货",
+          "goodsThumbnailUrl": "https://t00img.yangkeduo.com/goods/images/2020-07-18/9e23dcbcab137b7c7f3db7d0824a3018.jpeg",
+          "salesTip": "6846",
+          "couponDiscount": 0.000,
+          "hasCoupon": false,
+          "promotionPrice": 0.6,
+          "vipPromotionPrice": 0.6,
+          "myPromotionPrice": 0.6,
+          "minPrice": 719.000,
+          "discountMinPrice": 719.0,
+          "collect": false,
+          "mallName": "任天堂",
+          "merchantType": 5,
+          "imageList": [
+            "https://img.pddpic.com/mms-material-img/2020-07-16/c2962301-5d3d-4563-bb8b-8ea7c2859ec0.jpg.a.jpeg",
+            "https://img.pddpic.com/mms-material-img/2020-07-16/a05ccfab-565e-4154-ba8f-eb565a65e874.jpg.a.jpeg",
+            "https://t00img.yangkeduo.com/openapi/images/2020-06-15/52fa47f862abfd78e790c086c1c494a1.jpeg",
+            "https://t00img.yangkeduo.com/openapi/images/2020-06-15/b7627a05fcc5f82e40cfd4a7ccf67cea.jpeg",
+            "https://t00img.yangkeduo.com/openapi/images/2020-06-15/0c43744328d640b549436d4e656f360e.jpeg",
+            "https://t00img.yangkeduo.com/openapi/images/2020-06-15/4b7b24dc64150793a3bdb542d64ee3d0.jpeg"
+          ],
+          "shareCount": 6846
+        }
+      ]
+    }
+  },
+  "getGoodDetail": {
+    "code": 0,
+    "result": {
+      "detail": {
+        "goodsId": 58048440240,
+        "goodsName": "【整箱桶装】正宗嗨吃家酸辣粉速食海吃粉丝夜宵泡面方便面米线",
+        "goodsDesc": "【整箱桶装】正宗嗨吃家酸辣粉速食海吃粉丝夜宵泡面方便面米线",
+        "goodsImageUrl": "https://img.pddpic.com/mms-material-img/2020-06-06/d5d10e64-e423-4119-90db-7ee049e48de4.jpeg",
+        "goodsGalleryUrls": [
+          "https://img.pddpic.com/mms-material-img/2020-06-06/d5d10e64-e423-4119-90db-7ee049e48de4.jpeg",
+          "https://img.pddpic.com/mms-material-img/2020-06-06/638cbfb9-3beb-4882-a6bd-11e5b9e020b2.jpeg",
+          "https://img.pddpic.com/mms-material-img/2020-06-06/ec5b915d-e3ae-4bf0-903a-825f39c12289.jpeg",
+          "https://img.pddpic.com/mms-material-img/2020-06-06/0c57e770-8743-4aff-9dcd-d2b25f792e5a.jpeg",
+          "https://t00img.yangkeduo.com/goods/images/2019-10-26/02c68f61-aa96-4b9e-b5c9-5b9b72e2e533.jpg"
+        ],
+        "salesTip": "6.8万",
+        "couponDiscount": 10.000,
+        "promotionPrice": 0.8,
+        "vipPromotionPrice": 0.9,
+        "myPromotionPrice": 0.8,
+        "minPrice": 19.980,
+        "discountMinPrice": 9.98,
+        "collect": false,
+        "mallName": "四小姐食品旗舰店"
+      }
+    }
+  }
+}
