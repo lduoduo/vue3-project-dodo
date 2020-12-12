@@ -20,7 +20,7 @@ export default {
   // 是否开启 https
   https: false,
   // 服务端渲染
-  ssr: false,
+  ssr: true,
   // 引入第三方的配置
   optimizeDeps: {
     include: ['moment', 'echarts', 'axios', 'mockjs']

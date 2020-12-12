@@ -4,6 +4,8 @@ import App from './App.vue';
 import router from './router';
 import store from './store-vuex';
 
+import './app.css';
+
 router.beforeEach((to, from, next) => {
   console.log('路由导航守卫to', to);
   /* 路由发生变化修改页面title */

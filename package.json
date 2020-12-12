@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "mock": "json-server --watch ./mock/data.json --port 10002",
     "serve": "vue-cli-service serve",
     "build1": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -11,8 +12,10 @@
     "build": "vite build"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
+    "vant": "^3.0.0-rc.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"

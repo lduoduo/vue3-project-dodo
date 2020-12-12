@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('./pages/Teleport.vue')
   },
   {
+    path: 'aliplay',
+    name: 'Teleport',
+    component: () => import('./pages/Aliplay.vue')
+  },
+  {
     path: '',
     name: 'pcdefault',
     component: () => import('./pages/Suspense.vue')
