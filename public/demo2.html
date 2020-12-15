@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .goodman {
+      font-size: 20px;
+      -webkit-mask-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        purple
+      );
+      background-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        yellow,
+        orange,
+        red,
+        orange,
+        yellow,
+        green,
+        yellow,
+        orange,
+        red
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-size: 200% 100%;
+      animation: bgp 5s infinite linear;
+    }
+    @-webkit-keyframes bgp {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: -100% 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p class="goodman">还给我吧，我的时间我的钱</p>
+</body>
