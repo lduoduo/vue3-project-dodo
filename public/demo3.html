@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>慕课七夕主题</title>
+    <style>
+      /**
+ * transform-origin 设置旋转元素的基点位置
+ * animation-name 设置动画名称
+ * animation-duration 设置动画时间
+ * animation-fill-mode 设置播放后的状态
+ * animation-iteration-count 设置循环播放的次数
+ * transition-timing-function: cubic-bezier 贝塞尔曲线效果，它有四个值，指在X轴与Y轴的两个曲线的点，第一个点：X1 Y1;第二个点：X2 Y2
+ * transform: translate3d 设置动画Z轴位移几个元素，表示只在Z轴上移动
+ *
+ * 需要注意：transform: translate3d 不等于 transform: translateZ
+ */
+
+      .animated {
+        animation-duration: 1s; /*动画时间*/
+        animation-fill-mode: both; /*播放后的状态*/
+      }
+
+      .animated {
+        animation-iteration-count: infinite; /*动作循环的次数：infinite 无限循环*/
+      }
+
+      .animated {
+        animation-duration: 2s; /*动画时间*/
+      }
+
+      .container {
+        background: #2d97db;
+        width: 90%;
+        height: 90%;
+        padding: 100px;
+        margin: 20px auto;
+        font-family: '微软雅黑';
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        line-height: 90%;
+        animation-name: container; /*动画的名称*/
+      }
+
+      .container:hover {
+        animation-name: container; /*动画的名称*/
+        transform-origin: center bottom; /*设置动画旋转元素的基点为：居中靠下*/
+        cursor: pointer;
+      }
+
+      @keyframes container {
+        0%,
+        100%,
+        20%,
+        50%,
+        80% {
+          transition-timing-function: cubic-bezier(
+            0.215,
+            0.61,
+            0.355,
+            1
+          ); /*贝塞尔曲线 ： X1 Y1 X2 Y2*/
+          transform: translate3d(0, 0, 0); /*设置只在Z轴上移动*/
+        }
+        40%,
+        43% {
+          transition-timing-function: cubic-bezier(0.755, 0.5, 0.855, 0.06);
+          transform: translate3d(0, -30px, 0);
+        }
+        70% {
+          transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          transform: translate3d(0, -15px, 0);
+        }
+        90% {
+          transform: translate3d(0, -4px, 0);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="square" class="container animated">上下晃动</div>
+  </body>
+</html>

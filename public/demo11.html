@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .box {
+        width: 800px;
+        height: 100px;
+        margin: 0 auto;
+        overflow: hidden;
+        border: 1px solid pink;
+        position: relative;
+      }
+
+      .imgList {
+        animation: rolling 18s linear infinite;
+        position: absolute;
+        display: flex;
+      }
+
+      img {
+        height: 100px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      @keyframes rolling {
+        from {
+          transform: translateX(0);
+        }
+
+        to {
+          transform: translateX(-50%);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>图片无缝循环滚动</h1>
+    <div class="box">
+      <div class="imgList">
+        <img src="./images/9-building.png" alt="" />
+        <img src="./images/9-building.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
