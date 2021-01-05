@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      #xin {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-image: url(./images/clock1.png);
+        background-repeat: no-repeat;
+        background-color: pink;
+        background-size: 2900%;
+      }
+      .xin2 {
+        animation: mymoveOK 0.8s linear;
+        animation-fill-mode: forwards;
+        animation-timing-function: steps(
+          28
+        );
+      }
+      @keyframes mymoveOK {
+        from {
+          background-position: left;
+        }
+        to {
+          background-position: right;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dianzanXin">
+      <div id="xin" class="xin2"></div>
+    </div>
+  </body>
+</html>

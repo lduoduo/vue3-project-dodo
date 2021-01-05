@@ -1,0 +1,24 @@
+.page-h5-annual-bill-2020 {
+  width: 100vw;
+  height: 100vh;
+  max-width: 750PX;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-image: url(https://vue3js.cn/docs/logo.png);
+  background-blend-mode: multiply;
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  position: relative;
+  transition: all 0.6s;
+
+  .comp-side-bar {
+    position: fixed;
+    top: 60vh;
+    width: 26px;
+    left: 20px;
+    text-align: center;
+    z-index: 2;
+  }
+}
