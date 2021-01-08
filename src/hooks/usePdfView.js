@@ -1,8 +1,8 @@
 /*
  * @Author: duoduo
  * @Date: 2020-12-09 17:23:59
- * @Last Modified by: duoduo
- * @Last Modified time: 2020-12-15 16:37:40
+ * @Last Modified by: zouhuan
+ * @Last Modified time: 2021-01-07 23:59:35
  * PDF渲染器
  */
 
@@ -44,31 +44,6 @@ const usePdfView = (props) => {
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState({});
   const [error, setError] = useState('');
-
-  useEffect(() => {
-    setLoading(true);
-
-    if (loadCss) {
-      asyncLoad(['https://mozilla.github.io/pdf.js/web/viewer.css']);
-    }
-
-    asyncLoad(['/lib/pdf-e5.js'])
-      .then(() => {
-        asyncLoad(['/lib/pdf.viewer.js']).then(() => {
-          setLoading(false);
-          initViewer();
-        });
-      })
-      .catch((e) => {
-        setLoading(false);
-        console.error('PDF渲染脚本拉取失败，请检查网络设置', e);
-      });
-
-    return () => {
-      doClear();
-      doClose();
-    };
-  }, []);
 
   const initViewer = () => {
     if (refViewer.current) return Promise.resolve();
@@ -321,6 +296,31 @@ const usePdfView = (props) => {
     refViewer.current.currentPageNumber =
       page > refViewer.current.pagesCount ? refViewer.current.pagesCount : page;
   };
+
+  useEffect(() => {
+    setLoading(true);
+
+    if (loadCss) {
+      asyncLoad(['https://mozilla.github.io/pdf.js/web/viewer.css']);
+    }
+
+    asyncLoad(['/lib/pdf-e5.js'])
+      .then(() => {
+        asyncLoad(['/lib/pdf.viewer.js']).then(() => {
+          setLoading(false);
+          initViewer();
+        });
+      })
+      .catch((e) => {
+        setLoading(false);
+        console.error('PDF渲染脚本拉取失败，请检查网络设置', e);
+      });
+
+    return () => {
+      doClear();
+      doClose();
+    };
+  }, []);
 
   return {
     loading,

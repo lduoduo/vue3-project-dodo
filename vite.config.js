@@ -28,11 +28,11 @@ export default {
   // 是否开启 https
   https: false,
   // 服务端渲染
-  ssr: true,
+  ssr: false,
   // 引入第三方的配置
   optimizeDeps: {
     include: ['moment', 'echarts', 'axios', 'mockjs'],
-    exclude: ['qiankun', 'koa2', 'koa-body', 'swiper', 'koa-static-cache', '@vue/server-renderer']
+    exclude: ['qiankun', 'json-server', 'koa2', 'koa-body', 'swiper', 'autoprefixer', 'koa-static-cache', '@vue/server-renderer', 'vue-style-loader']
   },
   // optimizeDeps: {
   //   include: ['moment', 'echarts', 'axios', 'mockjs'],

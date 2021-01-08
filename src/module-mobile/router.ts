@@ -1,9 +1,9 @@
 import Vue from 'vue';
-import VueRouter, { RouteConfig } from 'vue-router';
+import VueRouter, { RouteRecordRaw } from 'vue-router';
 
 import ComApp from '/@/components/ComApp.vue';
 
-const routes: Array<RouteConfig> = [
+const routes: Array<RouteRecordRaw> = [
   {
     path: 'annual-bill-2020',
     name: 'annual-bill-2020',
@@ -13,6 +13,15 @@ const routes: Array<RouteConfig> = [
       ),
     meta: {
       title: '2020年度账单'
+    }
+  },
+  {
+    path: 'dd',
+    name: 'dd',
+    component: () =>
+      import(/* webpackChunkName: "module-mobile" */ './pages/dd.jsx'),
+    meta: {
+      title: 'dd'
     }
   }
 ];

@@ -13,6 +13,8 @@ class VueSSRServerPlugin {
   }
 
   apply(compiler) {
+    // compiler.options.output.libraryTarget = 'commonjs2';
+
     validate(compiler);
 
     onEmit(compiler, "vue-server-plugin", (compilation, cb) => {

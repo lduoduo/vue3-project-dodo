@@ -1,9 +1,7 @@
 // Source: https://github.com/nuxt/vue-bundle-renderer
 
-'use strict';
-
-var PassThrough = require('stream').PassThrough;
-const bundleRunner = require('./bundle-runner.cjs');
+import { PassThrough } from 'stream';
+import bundleRunner from './bundle-runner/index.mjs';
 
 function rewriteErrorTrace(e, mapConsumers) {
   if (e && typeof e.stack === 'string') {
@@ -15,8 +13,6 @@ function rewriteErrorTrace(e, mapConsumers) {
       .join('\n');
   }
 }
-
-Object.defineProperty(exports, '__esModule', { value: true });
 
 function createMapper(clientManifest) {
   const map = createMap(clientManifest);
@@ -33,6 +29,7 @@ function createMapper(clientManifest) {
     return Array.from(res);
   };
 }
+
 function createMap(clientManifest) {
   const map = new Map();
   Object.keys(clientManifest.modules).forEach(id => {
@@ -40,6 +37,7 @@ function createMap(clientManifest) {
   });
   return map;
 }
+
 function mapIdToFile(id, clientManifest) {
   const files = [];
   const fileIndices = clientManifest.modules[id];
@@ -60,9 +58,11 @@ function mapIdToFile(id, clientManifest) {
 function isJS(file) {
   return /\.js(\?[^.]+)?$/.test(file);
 }
+
 function isCSS(file) {
   return /\.css(\?[^.]+)?$/.test(file);
 }
+
 function normalizeFile(file) {
   const withoutQuery = file.replace(/\?.*/, '');
   const extension = withoutQuery.split('.').pop() || '';
@@ -73,12 +73,14 @@ function normalizeFile(file) {
     asType: getPreloadType(extension)
   };
 }
+
 function ensureTrailingSlash(path) {
   if (path === '') {
     return path;
   }
   return path.replace(/([^/])$/, '$1/');
 }
+
 function getPreloadType(ext) {
   if (ext === 'js') {
     return 'script';
@@ -115,6 +117,7 @@ function createRenderContext({ clientManifest, publicPath, basedir }) {
   );
   return renderContext;
 }
+
 function renderStyles(ssrContext, renderContext) {
   const initial = renderContext.preloadFiles || [];
   const async = getUsedAsyncFiles(ssrContext, renderContext) || [];
@@ -125,12 +128,14 @@ function renderStyles(ssrContext, renderContext) {
     })
     .join('');
 }
+
 function renderResourceHints(ssrContext, renderContext) {
   return (
     renderPreloadLinks(ssrContext, renderContext) +
     renderPrefetchLinks(ssrContext, renderContext)
   );
 }
+
 function renderPreloadLinks(ssrContext, renderContext) {
   const files = getPreloadFiles(ssrContext, renderContext);
   const shouldPreload = renderContext.shouldPreload;
@@ -156,6 +161,7 @@ function renderPreloadLinks(ssrContext, renderContext) {
     return '';
   }
 }
+
 function renderPrefetchLinks(ssrContext, renderContext) {
   const shouldPrefetch = renderContext.shouldPrefetch;
   if (renderContext.prefetchFiles) {
@@ -178,6 +184,7 @@ function renderPrefetchLinks(ssrContext, renderContext) {
     return '';
   }
 }
+
 function renderScripts(ssrContext, renderContext) {
   if (renderContext.clientManifest && renderContext.preloadFiles) {
     const initial = renderContext.preloadFiles.filter(({ file }) => isJS(file));
@@ -235,10 +242,9 @@ function createRenderer1(createApp, renderOptions) {
   };
 }
 
-function createRenderer(createApp, renderOptions) {
+export function createRenderer(createApp, renderOptions) {
   const renderContext = createRenderContext(renderOptions);
   const { vueServerRenderer } = renderOptions;
-
 
   function renderResources(ssrContext) {
     const wrap = fn => () => fn(ssrContext, renderContext);
@@ -253,7 +259,9 @@ function createRenderer(createApp, renderOptions) {
   async function renderToString(ssrContext) {
     ssrContext._registeredComponents =
       ssrContext._registeredComponents || new Set();
+
     const app = await createApp(ssrContext);
+
     const html = await vueServerRenderer.renderToString(app, ssrContext);
 
     return html;
@@ -264,8 +272,6 @@ function createRenderer(createApp, renderOptions) {
       ssrContext._registeredComponents || new Set();
 
     const app = await createApp(ssrContext);
-    // const html = await vueServerRenderer.renderToString(app, ssrContext);
-    // const wrap = fn => () => fn(ssrContext, renderContext);
 
     const res = new PassThrough();
 
@@ -276,6 +282,7 @@ function createRenderer(createApp, renderOptions) {
       res.emit('error', err);
     });
 
+    // relay HTMLStream special events
     renderStream.on('beforeStart', function() {
       res.emit('beforeStart');
     });
@@ -295,7 +302,7 @@ function createRenderer(createApp, renderOptions) {
   };
 }
 
-function createBundleRenderer(_bundle, renderOptions) {
+export function createBundleRenderer(_bundle, renderOptions) {
   const { evaluateEntry, rewriteErrorTrace } = bundleRunner.createBundle(
     _bundle,
     renderOptions
@@ -304,18 +311,23 @@ function createBundleRenderer(_bundle, renderOptions) {
   async function createApp(ssrContext, evalContext) {
     try {
       const entry = await evaluateEntry(evalContext);
-      const app = await entry(ssrContext);
+      console.log('entry', entry);
+
+      const app = await new Promise(async (resolve, reject) => {
+        const app1 = await entry(ssrContext);
+
+        resolve(app1);
+      })
 
       console.log('createBundleRenderer app', app);
-
       return app;
     } catch (err) {
       rewriteErrorTrace(err);
       throw err;
     }
   }
+
   return createRenderer(createApp, renderOptions);
 }
 
-exports.createBundleRenderer = createBundleRenderer;
-exports.createRenderer = createRenderer;
+export default { createBundleRenderer, createRenderer };

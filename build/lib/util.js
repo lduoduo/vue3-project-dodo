@@ -11,6 +11,8 @@ const validate = (compiler) => {
     warn('webpack config `target` should be "node".');
   }
 
+  console.log('compiler.options', compiler.options.output);
+
   if (
     compiler.options.output &&
     compiler.options.output.libraryTarget !== "commonjs2"

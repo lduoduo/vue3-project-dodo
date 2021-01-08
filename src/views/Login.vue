@@ -1,13 +1,13 @@
 <template>
   <div class="login">
-    <Field v-model="loginName" type="text" label="用户名" />
+    <Field v-model="loginName" type="text" label="用户名1" />
     <Field v-model="password" type="password" label="密码" />
 
     <Button
       type="primary"
       loading-text="加载中..."
-      :loading="this.loading"
-      :disabled="!this.loginName || !this.password"
+      :loading="loading"
+      :disabled="!loginName || !password"
       @click="onLogin"
       >登录</Button
     >
@@ -60,6 +60,8 @@ export default defineComponent({
 
     const onLogin = () => {
       console.log('onLogin', state);
+      state.loading = true;
+
       doLogin({
         loginName: state.loginName,
         encryptPasswd: loginRef.crypt.encrypt(state.password)

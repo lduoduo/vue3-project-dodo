@@ -1,7 +1,9 @@
-const path = require('path');
-const fs = require('fs');
+import * as path from 'path';
+import fs from 'fs';
 
-const resolve = pn => path.resolve(__dirname, pn);
+const __dirname = '/' + path.dirname(import.meta.url).replace(/^file:\/\/\//, '');
+
+const resolve = pn => path.join(__dirname, pn);
 
 const json = fs.readFileSync(
   resolve('../../dist/vue-ssr-server-bundle.json'),

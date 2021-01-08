@@ -2,7 +2,7 @@ import Vue from 'vue';
 import { createStore } from 'vuex';
 import axios from 'axios';
 
-import ENV from '@/config/env';
+import ENV from '@/config/env/index';
 
 import { IstateGoods } from './modules/goods';
 import { IStateUser } from './modules/user';

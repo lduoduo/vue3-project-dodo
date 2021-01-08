@@ -18,7 +18,6 @@ if (typeof global !== 'undefined') {
 
 console.log('prcess.env', process.env.NODE_ENV, prefix);
 
-// const isDev = 0;
 const isDev = process.env.NODE_ENV === 'development';
 
 export const myDomain = 'dodo.com';

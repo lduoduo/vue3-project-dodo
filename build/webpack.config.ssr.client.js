@@ -13,15 +13,13 @@ const isProd = process.env.NODE_ENV === 'production';
 const baseConfig = getConfig();
 
 const clientConfig = merge(baseConfig, {
-  mode: isProd ? 'production' : 'development',
-  // mode: 'development',
-  entry: {
-    app: resolve('w-ssr/entry-client-before-page.ts'),
-  },
+  // mode: isProd ? 'production' : 'development',
+  mode: 'development',
+  entry: resolve('w-ssr/entry-client-before-page.ts'),
   output: {
     path: resolve('dist'),
     publicPath: '/dist/',
-    filename: '[name].[chunkhash].js'
+    filename: '[name]-[chunkhash].js'
   },
   // 重要信息：这将 webpack 运行时分离到一个引导 chunk 中，
   // 以便可以在之后正确注入异步 chunk。
