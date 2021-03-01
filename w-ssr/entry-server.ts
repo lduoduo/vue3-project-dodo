@@ -16,7 +16,7 @@ export default async context => {
       throw { code: 404 };
     }
 
-    console.log('matchedComponents', matchedComponents);
+    // console.log('matchedComponents', matchedComponents);
     return app;
   } catch (err) {
     throw err;

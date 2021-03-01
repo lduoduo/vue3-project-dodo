@@ -40,21 +40,6 @@ export async function bootstrap() {
   console.log('%c ', 'color: green;', 'vue3.0 app bootstraped');
 }
 
-// function storeTest(props) {
-//   props.onGlobalStateChange &&
-//     props.onGlobalStateChange(
-//       (value, prev) => console.log(`[onGlobalStateChange - ${props.name}]:`, value, prev),
-//       true,
-//     );
-//   props.setGlobalState &&
-//     props.setGlobalState({
-//       ignore: props.name,
-//       user: {
-//         name: props.name,
-//       },
-//     });
-// }
-
 export async function mount(props) {
   // storeTest(props);
   render(props);
@@ -66,5 +51,4 @@ export async function unmount() {
   app.unmount();
   app._container.innerHTML = '';
   app = null;
-  router = null;
 }

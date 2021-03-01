@@ -1,7 +1,7 @@
 /*
  * @Author: duoduo
  * @Date: 2020-12-08 17:07:30
- * @Last Modified by: zouhuan
+ * @Last Modified by: lduoduo
  * @Last Modified time: 2020-12-15 16:46:04
  * 阿里云上传
  * 初始入参: fetchUploadAuth(获取上传凭证的fn, 返回promise)
