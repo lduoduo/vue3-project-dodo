@@ -1,6 +1,6 @@
 # vue3-project-dodo
 
-## vue3 + ts + jsx + koa2 + vite + webpack5 + dev-ssr + prd-ssr
+## vue3 + ts + jsx + koa2 + vite + webpack5 + dev-ssr + prd-ssr + prd-csr
 
 ## node >= 12.20.0 (for ECMAScript modules)
 [https://nodejs.org/docs/latest-v12.x/api/esm.html](https://nodejs.org/docs/latest-v12.x/api/esm.html)
