@@ -4,6 +4,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store-vuex';
+import { start } from '../monitor';
 
 // import "./registerServiceWorker";
 // import './myQiankun';
@@ -24,12 +25,26 @@ router.beforeEach((to, from, next) => {
 let app = null;
 
 const render = (props = {}) => {
+  start('vue3-project');
+
   const { container } = props;
   app = createApp(App)
     .use(store)
     .use(router)
     .component(Iconfont.name, Iconfont)
     .mount(container ? container.querySelector('#app') : '#app');
+
+  console.log('app.config', app.config, app);
+
+  app.config = {
+    errorHandler: (err, vm, info) => {
+      console.log('全局错误', err, vm, info);
+    },
+    warnHandler: (msg, vm, trace) => {
+      // `trace` is the component hierarchy trace
+      console.log('全局警告', msg, vm, trace);
+    }
+  };
 };
 
 if (typeof window !== undefined && !window.__POWERED_BY_QIANKUN__) {
@@ -39,21 +54,6 @@ if (typeof window !== undefined && !window.__POWERED_BY_QIANKUN__) {
 export async function bootstrap() {
   console.log('%c ', 'color: green;', 'vue3.0 app bootstraped');
 }
-
-// function storeTest(props) {
-//   props.onGlobalStateChange &&
-//     props.onGlobalStateChange(
-//       (value, prev) => console.log(`[onGlobalStateChange - ${props.name}]:`, value, prev),
-//       true,
-//     );
-//   props.setGlobalState &&
-//     props.setGlobalState({
-//       ignore: props.name,
-//       user: {
-//         name: props.name,
-//       },
-//     });
-// }
 
 export async function mount(props) {
   // storeTest(props);
@@ -66,5 +66,4 @@ export async function unmount() {
   app.unmount();
   app._container.innerHTML = '';
   app = null;
-  router = null;
 }

@@ -13,7 +13,9 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/css/mixin.scss';
+// @import '/@/assets/css/mixin.scss';
+@import "../../assets/css/mixin.scss";
+
 .mobile-menu {
   display: flex;
   justify-content: space-around;
@@ -45,13 +47,12 @@
 
 <script>
 import { mapActions } from 'vuex';
-import Iconfont from '@/components/Iconfont.vue';
+import Iconfont from '/@/components/Iconfont.vue';
 
 export default {
   name: 'Menu',
   components: {
     Iconfont
-    // [Iconfont.name]: Iconfont
   },
   data() {
     return {

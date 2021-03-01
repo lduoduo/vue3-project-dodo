@@ -1,8 +1,8 @@
 /*
  * @Author: duoduo
  * @Date: 2019-09-22 10:45:59
- * @Last Modified by: zouhuan
- * @Last Modified time: 2020-12-15 16:46:11
+ * @Last Modified by: lduoduo
+ * @Last Modified time: 2021-02-26 12:49:37
  * 阿里web播放器组件
  * 初始入参: playerId(播放容器domId), autoplay
  * 实时播放入参: videoId, playAuth (视频id和播放凭证)

@@ -2,7 +2,7 @@
  * @Author: lduoduo
  * @Date: 2020-07-21 22:19:36
  * @Last Modified by: zouhuan
- * @Last Modified time: 2020-12-22 17:27:16
+ * @Last Modified time: 2021-03-01 16:32:13
  * 网络请求基础类库
  * https://github.com/axios/axios
  */
@@ -67,7 +67,7 @@ const doFetch = (opts = {}) => {
     transformResponse: [ResponseMiddwareBigInt]
   };
 
-  console.log('axios options', options, instance);
+  console.log('axios options', options);
 
   return instance(options).then(e => {
     /* eslint-disable @typescript-eslint/camelcase */

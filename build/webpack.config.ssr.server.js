@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const { merge } = require('webpack-merge');
 const nodeExternals = require('webpack-node-externals');
-// const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 const { VueSSRServerPlugin } = require('./lib/server.plugin');
 

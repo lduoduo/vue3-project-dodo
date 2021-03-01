@@ -1,15 +1,22 @@
 import path from 'path';
+import vue from '@vitejs/plugin-vue';
+import vueJsx from '@vitejs/plugin-vue-jsx';
 
 const PORT = process.env.PORT || 10001;
 
 import { myDomain } from './src/config/index';
 
-// 开发环境cookie缓存和交换
 const cookies = {
   current: null
 };
 
-export default {
+const config = {
+  plugins: [
+    vueJsx({
+      // options are passed on to @vue/babel-plugin-jsx
+    }),
+    vue(),
+  ],
   /**
    * 在生产中服务时的基本公共路径。
    * @default '/'
@@ -31,24 +38,41 @@ export default {
   ssr: false,
   // 引入第三方的配置
   optimizeDeps: {
-    include: ['moment', 'echarts', 'axios', 'mockjs'],
-    exclude: ['qiankun', 'json-server', 'koa2', 'koa-body', 'swiper', 'autoprefixer', 'koa-static-cache', '@vue/server-renderer', 'vue-style-loader']
+    include: ['axios'],
+    exclude: [
+      'qiankun',
+      'json-server',
+      'koa2',
+      'koa-body',
+      'swiper',
+      'autoprefixer',
+      'koa-static-cache',
+      '@vue/server-renderer',
+      'vue-style-loader'
+    ]
   },
-  // optimizeDeps: {
-  //   include: ['moment', 'echarts', 'axios', 'mockjs'],
-  //   exclude: ['koa2', 'koa-body']
-  // },
-  alias: {
-    // vite中alias必须以斜线开头和结尾，暂时未知原因，这样其实挺不方便的
-    // 所以在eslint配置alias和文件中导入路径也要相应的修改
-    '/@/': path.resolve(__dirname, './src'),
-    // 'vue': path.resolve(__dirname, './node_modules/vue/dist/vue.runtime.esm-browser.js'),
+  resolve: {
+    alias: {
+      // vite中alias必须以斜线开头和结尾，暂时未知原因，这样其实挺不方便的
+      // 所以在eslint配置alias和文件中导入路径也要相应的修改
+      '/@': path.resolve(__dirname, './src')
+      // 'vue': path.resolve(__dirname, './node_modules/vue/dist/vue.runtime.esm-browser.js'),
+    }
   },
   //这里注意，键名是scss不是sass！一字之差能让你折腾好久
   scss: {
     //这里写你想导入全局scss变量的路径
     //这里注意只能写相对路径，alias貌似在css中不会生效
     additionalData: "@import './src/style/a.scss';"
+  },
+  define: {
+    'process.env': JSON.stringify({
+      NODE_ENV: '"development"',
+      VUE_ENV: '"client"'
+    }),
+    'process.server': false,
+    __IS_PROD__: false,
+    __SERVER__: false
   },
   proxy: {
     // '/api': 'http://127.0.0.1:10002',
@@ -112,3 +136,5 @@ export default {
     }
   }
 };
+
+export default config;

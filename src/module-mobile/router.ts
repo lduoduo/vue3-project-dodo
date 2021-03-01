@@ -16,6 +16,26 @@ const routes: Array<RouteRecordRaw> = [
     }
   },
   {
+    path: 'hotlist',
+    name: 'hotlist',
+    component: () =>
+      import(/* webpackChunkName: "module-mobile" */ './pages/HotList.vue'),
+    meta: {
+      title: '热点',
+      navShow: true
+    }
+  },
+  {
+    path: 'hotlist-ts',
+    name: 'hotlist-ts',
+    component: () =>
+      import(/* webpackChunkName: "module-mobile" */ './pages/HotListTs.vue'),
+    meta: {
+      title: '热点ts',
+      type: 'bbb'
+    }
+  },
+  {
     path: 'dd',
     name: 'dd',
     component: () =>

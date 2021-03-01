@@ -94,7 +94,7 @@
 
 <script>
 import { Search as VSearch } from 'vant';
-import Iconfont from '@/components/Iconfont.vue';
+import Iconfont from '/@/components/Iconfont.vue';
 
 export default {
   name: 'Search',

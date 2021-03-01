@@ -319,7 +319,7 @@ export function createBundleRenderer(_bundle, renderOptions) {
         resolve(app1);
       })
 
-      console.log('createBundleRenderer app', app);
+      // console.log('createBundleRenderer app', app);
       return app;
     } catch (err) {
       rewriteErrorTrace(err);

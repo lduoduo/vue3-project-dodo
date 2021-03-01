@@ -12,7 +12,8 @@
     <router-link to="/ov3">ov3</router-link> |
     <router-link to="/vue2">我的v2</router-link> |
     <router-link to="/login">login</router-link> |
-    <router-link to="/m/dd">计时器</router-link>
+    <router-link to="/m/dd">计时器</router-link> |
+    <router-link to="/m/hotlist">hotlist</router-link>
   </div>
   <router-view />
 </template>
@@ -31,3 +32,12 @@
   }
 }
 </style>
+
+<script>
+export default {
+  mounted() {
+    console.log('v3 app mounted');
+    document.dispatchEvent(new Event('render-active'));
+  }
+};
+</script>

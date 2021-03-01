@@ -14,29 +14,36 @@
 </style>
 
 <script>
-export default {
-  name: 'CompApp',
-  beforeMount() {
-    const { title = '' } = this.$route.meta || {};
-    this.setTitle(title);
+import { defineComponent, onBeforeMount, onMounted } from 'vue';
+import { useRouter, useRoute } from 'vue-router';
 
-    console.log('this router', this.$route, this);
-  },
-  watch: {
-    $route: 'onRouteChange'
-  },
-  methods: {
-    onRouteChange(e) {
-      const { title = '' } = e.meta || {};
-      console.log('onRouteChange', e, this.$route);
-      this.setTitle(title);
-    },
-    setTitle(e) {
+export default defineComponent({
+  setup(props) {
+    const router = useRouter();
+    const route = useRoute();
+
+    const setTitle = (e) => {
       if (typeof document === undefined) return;
 
       if (document.title === e) return;
       document.title = e;
-    }
-  }
-};
+    };
+
+    const pushWithQuery = (query) => {
+      router.push({
+        name: 'search',
+        query: {
+          ...route.query,
+        },
+      });
+    };
+
+    onBeforeMount(() => {
+      console.log('onBeforeMount props', props);
+      // const { title = '' } = this.$route.meta || {};
+      // setTitle(title);
+      console.log('this router', route);
+    });
+  },
+});
 </script>

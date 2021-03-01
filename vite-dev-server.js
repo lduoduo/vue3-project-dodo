@@ -35,8 +35,7 @@ const config = {
   alias: {
     // vite中alias必须以斜线开头和结尾，暂时未知原因，这样其实挺不方便的
     // 所以在eslint配置alias和文件中导入路径也要相应的修改
-    '/@/': path.resolve(__dirname, './src')
-    // '/@components/': path.resolve(__dirname, './src/components')
+    '/@': path.resolve(__dirname, './src')
   },
   //这里注意，键名是scss不是sass！一字之差能让你折腾好久
   scss: {

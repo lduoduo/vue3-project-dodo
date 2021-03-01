@@ -58,15 +58,13 @@ if (isProd) {
   });
 } else {
   readyPromise = devServer(app, (serverBundle1, options) => {
-    console.log('devServer options', options);
+    // console.log('devServer options', options);
 
     renderer = createBundleRenderer(serverBundle1, {
       runInNewContext: false,
       vueServerRenderer,
       ...options
     });
-
-    console.log('renderer', renderer);
   });
 }
 

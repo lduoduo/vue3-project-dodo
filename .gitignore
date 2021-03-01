@@ -3,6 +3,7 @@ node_modules
 /dist
 dist
 dist-ssr
+dist-csr
 *.local
 .history
 

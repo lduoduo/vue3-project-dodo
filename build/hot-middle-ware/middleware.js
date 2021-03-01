@@ -104,7 +104,7 @@ function createEventStream(heartbeat) {
         });
       }
 
-      console.log('hot-middleware writeHead 200');
+      // console.log('hot-middleware writeHead 200');
       res.writeHead(200, headers);
       res.write('\n');
       var id = clientId++;

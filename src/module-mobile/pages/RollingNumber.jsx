@@ -80,6 +80,6 @@ export default defineComponent({
     return () => {
       // console.log('render', index.value, list, list[index.value])
       return list[index.value];
-    }
+    };
   }
 });

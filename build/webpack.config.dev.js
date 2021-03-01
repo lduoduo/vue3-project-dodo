@@ -18,7 +18,7 @@ const baseConfig = getConfig({ isDevServer: true });
 module.exports = merge(baseConfig, {
   stats: 'errors-only',
   mode: 'development',
-  entry: resolve('src/main.ts'),
+  entry: resolve('src/main.js'),
   output: {
     path: resolve('dist'),
     publicPath: '/dist/',
