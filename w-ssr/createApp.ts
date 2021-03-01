@@ -7,10 +7,6 @@ import Iconfont from '/@/components/Iconfont.vue';
 import { createMyStore } from '/@/store-vuex';
 import { createMyRouter } from './createRouter';
 
-// Object.keys(filters).forEach(key => {
-//   Vue.filter(key, filters[key]);
-// });
-
 export function createApp() {
   const router = createMyRouter();
   const store = createMyStore();

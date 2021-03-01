@@ -35,5 +35,12 @@
     "tests/**/*.ts",
     "tests/**/*.tsx",
   ],
-  "exclude": ["node_modules", ".vscode", ".history", "webpack", "w-ssr", "w-template"],
+  "exclude": [
+    "node_modules",
+    ".vscode",
+    ".history",
+    "webpack",
+    "w-ssr",
+    "w-template"
+  ],
 }

@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, createMemoryHistory, RouteRecordRaw } from 'vue-router';
 
-import routes from '@/router/routes';
+import routes from '/@/router/routes';
 
 const history = process.browser ? createWebHistory() : createMemoryHistory();
 

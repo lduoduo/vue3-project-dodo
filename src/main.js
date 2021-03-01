@@ -30,6 +30,17 @@ const render = (props = {}) => {
     .use(router)
     .component(Iconfont.name, Iconfont)
     .mount(container ? container.querySelector('#app') : '#app');
+
+  console.log('app.config', app.config);
+
+  // app.config.errorHandler = (err, vm, info) => {
+  //   console.log('全局错误', err, vm, info);
+  // };
+
+  // app.config.warnHandler = (msg, vm, trace) => {
+  //   // `trace` is the component hierarchy trace
+  //   console.log('全局警告', msg, vm, trace);
+  // };
 };
 
 if (typeof window !== undefined && !window.__POWERED_BY_QIANKUN__) {

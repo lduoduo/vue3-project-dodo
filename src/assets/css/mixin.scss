@@ -1,0 +1,76 @@
+$baseColor: #fff;
+$mainColor: #39393F;
+$activeColor: #D4B179;
+// $activeColor: #f99142;
+$tipColor: #ccc;
+$disableColor: #d8d8d8;
+
+$mainTxtColor: rgba(0, 0, 0, 0.77);
+$subTxtColor: rgba(0, 0, 0, 0.6);
+$borderColor: rgba(0, 0, 0, 0.06);
+$bgColor: rgba(0, 0, 0, 0.08);
+$activeBgColor: #f5a623;
+$defaultBgColor: #F6F6F6;
+$baseBgColor: #F1F2F8;
+
+$colorRed: #D25C5C;
+
+$boxShadow: 0 4px 8px 0 rgba(77, 95, 169, 0.2);
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex {
+  @include flex;
+
+  &.center {
+    justify-content: center;
+  }
+}
+
+.flex.center {
+  // background-color: pink;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.form-placeholder {
+  color: #ccc;
+}
+
+@mixin bg-tip($text: '李多多', $fonsSize: 44px) {
+  position: relative;
+
+  &:after {
+    content: $text;
+    white-space: nowrap;
+    color: #aaa;
+    font-size: $fonsSize;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@mixin bg-transform {
+  background: linear-gradient(90deg, #eee 0%, #fefefe 50%, #f6f6f6 100%);
+  background-size: 200% 100%;
+  background-position: 0 0;
+  animation: bg-position 1s infinite linear alternate;
+}
+
+@keyframes bg-position {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}

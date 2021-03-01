@@ -31,3 +31,12 @@
   }
 }
 </style>
+
+<script>
+export default {
+  mounted() {
+    console.log('v3 app mounted');
+    document.dispatchEvent(new Event('render-active'));
+  }
+};
+</script>

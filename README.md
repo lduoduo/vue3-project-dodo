@@ -58,6 +58,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - webpack-dev-middleware / webpck-hot-middleware: change code to work with koa
 
 ### debug webpack with vscode
+- folder debug
+- launch vscode debug
 
 ### 踩坑
 1. [vite] Failed to resolve module import "@/components/HelloWorld.vue". (imported by /src/views/Home.vue)
@@ -74,7 +76,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 8. CSR 预渲染报错 [prerender-spa-plugin] Unable to prerender all routes!
   [已提PR](https://github.com/chrisvfritz/prerender-spa-plugin/pull/415)
   - 现已直接代码移植到项目中进行修改
-9.
+9. Alias in css don't work[issue here](https://github.com/vitejs/vite/issues/650)
+
+### v3学习
+- [V3 组合式API 生命周期钩子](https://v3.cn.vuejs.org/guide/composition-api-lifecycle-hooks.html)
+### SEO优化：
+1.SSR；
+2.静态化；
+3.预渲染prerender-spa-plugin；
+4.使用Phantomjs针对爬虫做处理
 
 ### 参考资料
 - [vite 完整配置](https://github.com/vitejs/vite/blob/master/src/node/config.ts)

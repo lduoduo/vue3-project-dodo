@@ -10,7 +10,7 @@ const resolve = pn => path.resolve(__dirname, `../${pn}`);
 
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
-const isProd = true; // process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
 const baseConfig = getConfig();
 
@@ -90,18 +90,14 @@ module.exports = merge(baseConfig, {
       routes: [
         '/about',
         '/',
-        // '/m/categorylist',
-        // '/m/hotlist',
-        // '/m/pyqlist',
-        // '/m/mine'
+        '/m/hotlist',
+        '/m/pyqlist',
+        '/m/mine'
       ],
       postProcess(renderedRoute) {
-        // add CDN
+        // 过滤掉CDN资源路径
         // 由于CDN是以"/"结尾的，所以资源开头的“/”去掉
         // renderedRoute.html = renderedRoute.html.replace('xxx', 'xx')
-
-        console.log('postProcess', renderedRoute);
-
         return renderedRoute;
       },
       renderer: new Renderer({
@@ -116,8 +112,8 @@ module.exports = merge(baseConfig, {
         inject: {
           title: 'dodo'
         },
-        // 在 main.js 中 document.dispatchEvent(new Event('render-event'))，vue可能需要使用预渲染何时开始的事件, 两者的事件名称要对应上。
-        renderAfterDocumentEvent: 'render-event',
+        // 在 main.js 中 document.dispatchEvent(new Event('render-active'))，vue可能需要使用预渲染何时开始的事件, 两者的事件名称要对应上。
+        renderAfterDocumentEvent: 'render-active',
         renderAfterTime: 5000, //超时时间
         timeout: 0,
         maxConcurrentRoutes: 20, //打包页面的最大数

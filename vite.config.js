@@ -45,10 +45,6 @@ const config = {
       'vue-style-loader'
     ]
   },
-  // optimizeDeps: {
-  //   include: ['moment', 'echarts', 'axios', 'mockjs'],
-  //   exclude: ['koa2', 'koa-body']
-  // },
   resolve: {
     alias: {
       // vite中alias必须以斜线开头和结尾，暂时未知原因，这样其实挺不方便的

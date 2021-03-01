@@ -47,7 +47,6 @@ class PuppeteerRenderer {
 
       this._puppeteer = await puppeteer.launch(this._rendererOptions)
     } catch (e) {
-      console.error(e)
       console.error('[Prerenderer - PuppeteerRenderer] Unable to start Puppeteer')
       // Re-throw the error so it can be handled further up the chain. Good idea or not?
       throw e
