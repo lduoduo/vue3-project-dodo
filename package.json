@@ -49,6 +49,7 @@
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vitejs/plugin-vue": "^1.1.4",
+    "@vitejs/plugin-vue-jsx": "^1.1.2",
     "@vue/babel-plugin-jsx": "^1.0.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",

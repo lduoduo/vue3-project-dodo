@@ -77,6 +77,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   [已提PR](https://github.com/chrisvfritz/prerender-spa-plugin/pull/415)
   - 现已直接代码移植到项目中进行修改
 9. Alias in css don't work[issue here](https://github.com/vitejs/vite/issues/650)
+10. vite jsx: ReferenceError: React is not defined: 加入插件：@vue/babel-plugin-jsx
+11. 从 Vue 3.0 开始，过滤器已删除，不再支持
 
 ### v3学习
 - [V3 组合式API 生命周期钩子](https://v3.cn.vuejs.org/guide/composition-api-lifecycle-hooks.html)

@@ -22,27 +22,19 @@ const routes: Array<RouteRecordRaw> = [
       import(/* webpackChunkName: "module-mobile" */ './pages/HotList.vue'),
     meta: {
       title: '热点',
-      navShow: true,
-      tabShow: true,
-      navLeftShow: false,
-      navRightShow: true,
+      navShow: true
+    }
+  },
+  {
+    path: 'hotlist-ts',
+    name: 'hotlist-ts',
+    component: () =>
+      import(/* webpackChunkName: "module-mobile" */ './pages/HotListTs.vue'),
+    meta: {
+      title: '热点ts',
       type: 'bbb'
     }
   },
-  // {
-  //   path: 'hotlist-ts',
-  //   name: 'hotlist-ts',
-  //   component: () =>
-  //     import(/* webpackChunkName: "module-mobile" */ './pages/HotListTs.vue'),
-  //   meta: {
-  //     title: '热点ts',
-  //     navShow: true,
-  //     tabShow: true,
-  //     navLeftShow: false,
-  //     navRightShow: true,
-  //     type: 'bbb'
-  //   }
-  // },
   {
     path: 'dd',
     name: 'dd',

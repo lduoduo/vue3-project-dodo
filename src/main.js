@@ -4,6 +4,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store-vuex';
+import { start } from '../monitor';
 
 // import "./registerServiceWorker";
 // import './myQiankun';
@@ -24,6 +25,8 @@ router.beforeEach((to, from, next) => {
 let app = null;
 
 const render = (props = {}) => {
+  start('vue3-project');
+
   const { container } = props;
   app = createApp(App)
     .use(store)
@@ -31,16 +34,17 @@ const render = (props = {}) => {
     .component(Iconfont.name, Iconfont)
     .mount(container ? container.querySelector('#app') : '#app');
 
-  console.log('app.config', app.config);
+  console.log('app.config', app.config, app);
 
-  // app.config.errorHandler = (err, vm, info) => {
-  //   console.log('全局错误', err, vm, info);
-  // };
-
-  // app.config.warnHandler = (msg, vm, trace) => {
-  //   // `trace` is the component hierarchy trace
-  //   console.log('全局警告', msg, vm, trace);
-  // };
+  app.config = {
+    errorHandler: (err, vm, info) => {
+      console.log('全局错误', err, vm, info);
+    },
+    warnHandler: (msg, vm, trace) => {
+      // `trace` is the component hierarchy trace
+      console.log('全局警告', msg, vm, trace);
+    }
+  };
 };
 
 if (typeof window !== undefined && !window.__POWERED_BY_QIANKUN__) {

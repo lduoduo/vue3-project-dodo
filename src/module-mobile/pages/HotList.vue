@@ -38,7 +38,7 @@
 }
 </style>
 <script>
-import vue, { defineComponent, ref, reactive, toRefs, onMounted } from 'vue';
+import { defineComponent, reactive, toRefs, onMounted, onUnmounted } from 'vue';
 // 在这里导入模块，而不是在 `store/index.js` 中
 import hotStoreModule from '/@/store-vuex/modules/hotList';
 
@@ -49,11 +49,11 @@ import CompItem from '../components/Hot/Item.vue';
 import { getHotList } from '/@/network/api';
 
 export default defineComponent({
+  name: 'HotList',
   components: { Search, Menu, CompItem },
   // asyncData这个静态方法用于 SSR server端注入store获取数据
   asyncData({ store, route }) {
     console.log('asyncData store', store);
-
     if (!store.hasModule('hotList')) {
       console.log('注册store hotList');
       store.registerModule('hotList', hotStoreModule);
@@ -64,10 +64,6 @@ export default defineComponent({
   },
   // 重要信息：当多次访问路由时，
   // 避免在客户端重复注册模块。
-  unmounted(e, a, b) {
-    console.log('unmounted', this, a, b);
-    // this.$store.unregisterModule('hotList');
-  },
   setup(props, a, b) {
     const state = reactive({
       search: '',
@@ -84,13 +80,25 @@ export default defineComponent({
       });
     };
 
-    console.log('hotlist props', props,a,b);
+    console.log('hotlist props', props, a, b);
 
     onMounted(() => {
       fetchtHotList();
     });
 
-    return { ...toRefs(state) };
+    onUnmounted(() => {
+      console.log('hotlist 卸载');
+    });
+
+    const onSearch = (val) => {
+      console.log('onSearch', val);
+    };
+
+    const onCancel = () => {
+      console.log('onCancel');
+    };
+
+    return { ...toRefs(state), onSearch, onCancel };
   },
 });
 </script>

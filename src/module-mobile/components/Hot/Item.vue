@@ -220,13 +220,11 @@ export default {
   beforeMount() {
     console.log('hot item this.$store', this.$store);
   },
-  filters: {
+  methods: {
+    ...mapActions(['setGoods', 'asSetGoods', 'actionB']),
     formatPrice(e) {
       return formatFloor(e);
     },
-  },
-  methods: {
-    ...mapActions(['setGoods', 'asSetGoods', 'actionB']),
     onToggle() {
       this.expand = !this.expand;
     },

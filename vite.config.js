@@ -1,5 +1,6 @@
 import path from 'path';
 import vue from '@vitejs/plugin-vue';
+import vueJsx from '@vitejs/plugin-vue-jsx';
 
 const PORT = process.env.PORT || 10001;
 
@@ -10,7 +11,12 @@ const cookies = {
 };
 
 const config = {
-  plugins: [vue()],
+  plugins: [
+    vueJsx({
+      // options are passed on to @vue/babel-plugin-jsx
+    }),
+    vue(),
+  ],
   /**
    * 在生产中服务时的基本公共路径。
    * @default '/'

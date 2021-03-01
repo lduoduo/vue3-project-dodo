@@ -42,7 +42,14 @@
 }
 </style>
 <script lang="ts">
-import { defineComponent, ref, reactive, toRefs, onMounted } from 'vue';
+import {
+  defineComponent,
+  ref,
+  reactive,
+  toRefs,
+  onMounted,
+  onUnmounted,
+} from 'vue';
 // 在这里导入模块，而不是在 `store/index.js` 中
 import hotStoreModule from '/@/store-vuex/modules/hotList';
 
@@ -54,6 +61,7 @@ import Layout from '/@/components/Layout.vue';
 import { getHotList } from '/@/network/api';
 
 export default defineComponent({
+  name: 'HotListTS',
   components: { Search, Menu, CompItem, Layout },
   asyncData({ store, route }) {
     console.log('asyncData store', store);
@@ -65,12 +73,6 @@ export default defineComponent({
 
     // 触发 action 后，会返回 Promise
     return store.dispatch('hotList/fetchtHotList', { type: 1 });
-  },
-  // 重要信息：当多次访问路由时，
-  // 避免在客户端重复注册模块。
-  unmounted() {
-    console.log('unmounted');
-    // this.$store.unregisterModule('hotList');
   },
   setup() {
     const state = reactive({
@@ -92,7 +94,19 @@ export default defineComponent({
       fetchtHotList();
     });
 
-    return { ...toRefs(state) };
-  },
+    onUnmounted(() => {
+      console.log('hotlist 卸载');
+    });
+
+    const onSearch = (val) => {
+      console.log('onSearch', val);
+    };
+
+    const onCancel = () => {
+      console.log('onCancel');
+    };
+
+    return { ...toRefs(state), onSearch, onCancel };
+  }
 });
 </script>
